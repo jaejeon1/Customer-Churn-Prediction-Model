@@ -57,7 +57,7 @@ Customer-Churn-Prediction-Model
 ├── data/
 │   └── telco.csv
 └── notebook/
-    └── churn_analysis.ipynb
+    └── IBM_telco_churn_analysis.ipynb
 ```
 
 ---
