@@ -118,7 +118,7 @@ Contract: Two Year         Strong protective effect
 
 Upload any customer CSV to get instant churn predictions with AI explanations.
 
-**[→ Live App]([http://192.168.1.214:8501](https://customer-churn-prediction-model-1.streamlit.app/))**
+**[→ Live App](https://customer-churn-prediction-model-1.streamlit.app/)**
 
 **App Screenshot**
 <img width="1118" height="846" alt="image" src="https://github.com/user-attachments/assets/daa0435b-2b7a-46e5-9e5b-2e6ec71f4045" />
