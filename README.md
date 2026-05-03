@@ -1,7 +1,18 @@
 # 📡 Telco Customer Churn Analysis & Prediction Model
 
-> End-to-end data analysis project dientifying $3.7M revenue risk
+> End-to-end data analysis project identifying $3.7M revenue risk
 > Building a production-ready churn prediction application
+
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-red)
+![SHAP](https://img.shields.io/badge/SHAP-ff6b6b)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c)
+![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 ---
 
@@ -25,6 +36,24 @@ The goal: identify who will churn, why, and what to do about it.
 | Protective services | Online Security cuts churn from 31% → **14.6%** |
 | Revenue paradox | Churned customers pay **$13 more/month** than those who stay |
 | Competitor threat | **46% of revenue loss** ($1.69M) goes directly to competitors |
+
+---
+
+## 📁 Project Structure
+
+```
+Customer-Churn-Prediction-Model
+├── app.py
+├── requirements.txt
+├── README.md
+├── models/
+│   ├── churn_model.pkl
+│   └── feature_cols.pkl
+├── data/
+│   └── telco.csv
+└── notebook/
+    └── churn_analysis.ipynb
+```
 
 ---
 
@@ -88,15 +117,13 @@ Production Application
 
 ## 🔑 Top Churn Drivers (SHAP)
 
-Contract: Month-to-Month   Highest impact
-
-Number of Referrals        Low referrals = high risk
-
-Tenure in Months           Early customers most vulnerable
-
-Monthly Charge             Higher payers more likely to leave
-
-Contract: Two Year         Strong protective effect
+| Feature | Impact |
+|---------|--------|
+| Contract: Month-to-Month | Highest impact |
+| Number of Referrals | Low referrals = high risk |
+| Tenure in Months | Early customers most vulnerable |
+| Monthly Charge | Higher payers more likely to leave |
+| Contract: Two Year | Strong protective effect |
 
 ---
 
@@ -119,6 +146,7 @@ Contract: Two Year         Strong protective effect
 Upload any customer CSV to get instant churn predictions with AI explanations.
 
 **[→ Live App](https://customer-churn-prediction-model-1.streamlit.app/)**
+(https://customer-churn-prediction-model-1.streamlit.app/)
 
 **App Screenshot**
 <img width="1118" height="846" alt="image" src="https://github.com/user-attachments/assets/daa0435b-2b7a-46e5-9e5b-2e6ec71f4045" />
@@ -167,7 +195,7 @@ cd churn-app
 pip install -r requirements.txt
 
 # Run the app
-streamlit run app/app.py
+streamlit run app.py
 ```
 
 ---
