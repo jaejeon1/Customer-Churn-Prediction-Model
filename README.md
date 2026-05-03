@@ -16,7 +16,10 @@
 
 ---
 
+<img width="1075" height="467" alt="image" src="https://github.com/user-attachments/assets/ba201a80-4a33-4ec1-ae7b-2a0fa2bcff3b" />
+<img width="957" height="313" alt="image" src="https://github.com/user-attachments/assets/ac172cca-5c04-414e-bfd1-7a155af774bf" />
 
+---
 
 ## 🔴 The Business Problem
 
@@ -127,6 +130,10 @@ Production Application
 | Monthly Charge | Higher payers more likely to leave |
 | Contract: Two Year | Strong protective effect |
 
+
+<img width="547" height="377" alt="image" src="https://github.com/user-attachments/assets/49798169-d7e6-4ead-b771-91547cbe0f04" />
+
+
 ---
 
 ## 💡 Business Recommendations
@@ -152,8 +159,7 @@ Upload any customer CSV to get instant churn predictions with AI explanations.
 https://customer-churn-prediction-model-1.streamlit.app/
 
 **App Screenshot**
-<img width="1118" height="846" alt="image" src="https://github.com/user-attachments/assets/daa0435b-2b7a-46e5-9e5b-2e6ec71f4045" />
-
+<img width="1083" height="607" alt="image" src="https://github.com/user-attachments/assets/d050e53c-76fe-4cd9-962b-5a2b1c570b35" />
 
 
 **Features:**
@@ -207,6 +213,7 @@ streamlit run app.py
 
 IBM Telco Customer Churn dataset — 7,043 customers, 50 features 
 including demographics, services, contract details, and churn labels.
+[Dataset Link](https://www.kaggle.com/datasets/alfathterry/telco-customer-churn-11-1-3)
 
 ---
 
