@@ -11,7 +11,9 @@ matplotlib.use('Agg')
 import shap
 import xgboost as xgb
 
-model      = joblib.load('churn_model.pkl')
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(BASE_DIR, 'models', 'churn_model.pkl'))
 feat_cols  = joblib.load('feature_cols.pkl')
 
 # Recreate explainer from model directly
