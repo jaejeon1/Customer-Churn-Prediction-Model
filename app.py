@@ -13,8 +13,9 @@ import xgboost as xgb
 
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model = joblib.load(os.path.join(BASE_DIR, 'models', 'churn_model.pkl'))
-feat_cols  = joblib.load('feature_cols.pkl')
+
+model     = joblib.load(os.path.join(BASE_DIR, 'models', 'churn_model.pkl'))
+feat_cols = joblib.load(os.path.join(BASE_DIR, 'models', 'feature_cols.pkl'))
 
 # Recreate explainer from model directly
 explainer  = shap.TreeExplainer(model)
