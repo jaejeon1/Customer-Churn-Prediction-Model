@@ -1,6 +1,7 @@
 # 📡 Telco Customer Churn Analysis & Prediction Model
 
 > End-to-end data analysis project identifying $3.7M revenue risk
+
 > Building a production-ready churn prediction application
 
 ![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
