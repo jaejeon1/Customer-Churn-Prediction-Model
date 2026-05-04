@@ -113,6 +113,9 @@ Production Application
 | Stayed | 0.93 | 0.79 | 0.86 |
 | Churned | 0.60 | 0.84 | 0.70 |
 
+<img width="587" height="503" alt="image" src="https://github.com/user-attachments/assets/a721600c-4b1b-48bb-8739-1bb845eb3b5a" />
+
+
 > Recall of 0.84 means we catch 84% of at-risk customers before they leave.
 
 > Missing a churner costs ~$74/month × remaining tenure.
